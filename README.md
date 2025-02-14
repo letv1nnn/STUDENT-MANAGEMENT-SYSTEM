@@ -6,5 +6,5 @@ MAIN FILE
    some of this code in send_email.py file, that uses specific library for it.
 
 DB
-I used PostgreSQL for this petproject.
-Only basic syntax!
+1. I used PostgreSQL for this petproject.
+   Only basic syntax!
