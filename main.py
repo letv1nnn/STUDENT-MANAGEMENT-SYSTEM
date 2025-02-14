@@ -167,11 +167,11 @@ def auto_send_mail(cur: psycopg2.extensions.cursor):
 def main():
     try:
         with psycopg2.connect(
-            host='localhost',
-            dbname='postgres',
-            user='postgres',
-            password='postgres',
-            port=5432
+            host='ur db',
+            dbname='ur db',
+            user='ur db',
+            password='ur db',
+            port= "port u use, initialy it's 5432"
         ) as conn:
             cur = conn.cursor()
             st = Student('Monica', 'Albreight', 22, 'D-', 'monica@gmail.com')
