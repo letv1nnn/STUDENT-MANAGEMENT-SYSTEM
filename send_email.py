@@ -17,8 +17,8 @@ def send(rec_email: UserModel, student_name: str):
 
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
-    server.login('artemlytvyn2007@gmail.com', "tcng qihn fnyc qivn")  # Ensure app password is used
-    server.sendmail('artemlytvyn2007@gmail.com', rec_email.email, text.encode('utf-8'))
+    server.login('[email from which you want to sent a mail]', "[it's app password]")  # Ensure app password is used
+    server.sendmail('[email from which you want to sent a mail]', rec_email.email, text.encode('utf-8'))
     print("✅ Mail has been sent successfully.")
     server.quit()
 
